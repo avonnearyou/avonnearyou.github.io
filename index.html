@@ -102,6 +102,11 @@
               <span id="error_name" class="text-danger"></span>
             </div>
             <button id="submit" type="submit" value="submit" class="btn btn-primary center">Know More</button>
+            <script type="text/javascript">
+              $('#$submit').click(function () {
+                fbq('track', 'CompleteRegistration');
+              }
+            </script>
           </form>
           <!--<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>-->
         </div>
